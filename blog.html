@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popovici Forst GbR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #2e6a47;
+        }
+        header {
+            background-color: #3e8e41;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            background-image: url('https://www.pexels.com/photo/green-trees-near-body-of-water-1461749/');
+            background-size: cover;
+            background-position: center;
+            height: 100px;
+            
+        }
+        header h1 {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            font-size: 3em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4CAF50;
+        }
+        nav a {
+            color: white;
+            padding: 16px 50px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #3e8e41;
+            color: black;
+        }
+        main {
+            padding: 20px;
+            background-color: #f0f4c3;
+        }
+        h2 {
+            text-align: center;
+            padding: 10px;
+            color: #2e6a47;
+            font-size: 2.3em;
+        }
+        h3 {
+            text-align: left;
+            color: #2e6a47;
+        }
+        div {
+            font-size: 1.4em;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: #3e8e41;
+            color: white;
+            padding: 1px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Footer Banner */
+        .footer-banner {
+            background-color: #3e8e41;
+            color: white;
+            padding: 20px;
+            font-size: 1.3em;
+            text-align: center;
+            width: 100%;
+        }
+
+        .forest-section {
+            background-color: #a5d6a7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .forest-images-container {
+            display: flex;
+            justify-content: center;
+            gap: 19px; /* Distanță între imagini */
+            margin-top: -2px;
+        }
+        .forest-image {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 250px;
+        }
+        .intro-text {
+            margin-top: 20px;
+            line-height: 1.6;
+            font-size: 1.4em;
+        }
+
+        /* Secțiuni suplimentare */
+        .services-section {
+            background-color: #c8e6c9;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+
+        .contact-section {
+            background-color: #e8f5e9;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>POPOVICI FORST GbR</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="STRUCTURE.HTML">Startseite</a>
+        <a href="INDEX.HTML">Leistungen</a>
+        <a href="blog.html">Über uns</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
+
+    <main>
+        <!-- Über uns Section -->
+        <section id="about" class="forest-section">
+            <h2>Über uns</h2>
+            <div>
+                <p>2021 wurde das Forstunternehmen POPOVICI gegründet. Es war die Zeit des großen Umbruchs in der deutschen Forstwirtschaft. Die Vollmechanisie­rung, vor allem in der Holzernte, hielt Einzug in unseren Wäldern. Aber auch Maschineneinsätze sind an ihre Grenzen gestoßen, denn ganz ohne ’man-power’ geht es in der Forstwirtschaft nicht – und genau dort beginnt unsere Arbeit!</p>
+                <p>Heute können wir uns als schlagkräftiger Mittelstandsbetrieb präsentieren. Unser Unternehmen ist für Sie in ganz Baden-Württemberg, sowie den angrenzenden Bundesländern tätig und bietet Ihnen sämtliche forstlichen Dienstleistungen an.</p>
+            </div>
+        </section>
+
+        <section>
+            <!-- Imagini afişate în lateral -->
+            <div class="forest-images-container">
+                <img src="/assets/pozz77.jpg" alt="Waldansicht" class="forest-image">
+                <img src="assets/pozzz11.jpg" alt="Holzernte" class="forest-image">
+                <img src="assets/pozz22.jpg" alt="Forest" class="forest-image">
+                <img src="assets/pozz33.jpg" alt="Waldansicht" class="forest-image">
+            </div>
+        </section>
+
+        <!-- Secțiune cu Servicii -->
+        <section class="services-section">
+            <h2>Unsere Dienstleistungen</h2>
+            <p>Wir bieten eine breite Palette von forstwirtschaftlichen Dienstleistungen, die auf Ihre individuellen Bedürfnisse zugeschnitten sind:</p>
+            <table>
+                <tr>
+                    <th>Dienstleistung</th>
+                    <th>Beschreibung</th>
+                </tr>
+                <tr>
+                    <td>Forstwirtschaftliche Beratung</td>
+                    <td>Wir beraten Sie in allen Bereichen der Forstwirtschaft, von der Planung bis zur Ausführung.</td>
+                </tr>
+                <tr>
+                    <td>Waldpflege</td>
+                    <td>Wir kümmern uns um die Pflege Ihres Waldes und garantieren nachhaltige Nutzung.</td>
+                </tr>
+                <tr>
+                    <td>Holzernte</td>
+                    <td>Wir führen die Holzernte unter Berücksichtigung von Nachhaltigkeit und Effizienz durch.</td>
+                </tr>
+                <tr>
+                    <td>Waldaufforstung</td>
+                    <td>Wir übernehmen die Aufforstung von verwaisten Flächen und setzen auf naturnahe Methoden.</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Secțiune cu Contact -->
+        <section class="contact-section">
+            <h2>Kontakt</h2>
+            <p>Wir freuen uns, von Ihnen zu hören! Wenn Sie Fragen haben oder mehr über unsere Dienstleistungen erfahren möchten, kontaktieren Sie uns bitte:</p>
+            <div>
+                <p><strong>Tel:</strong> +49 1523 8217 432</p>
+                <p><strong>E-Mail:</strong> Stepopforst@yahoo.com</p>
+                <p><strong>Adresse:</strong> Obernheim, 72364  Brunnenstr 1.</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Vielen Dank für Ihren Besuch auf unserer Website!</h3>
+            <p>Wir schätzen Ihr Interesse an unserem Waldprojekt und hoffen, dass Sie wertvolle Informationen und Inspiration gefunden haben. Wenn Sie Fragen haben oder mehr erfahren möchten, stehen wir Ihnen gerne zur Verfügung.</p>
+        </section>
+    </main>
+    <!-- Footer Banner -->
+    <div class="footer-banner">
+        <p>Kontaktieren Sie uns für weitere Informationen und Dienstleistungen rund um die Forstwirtschaft!</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2020 Popovici Forst GbR - Alle Rechte vorbehalten</p>
+        <p>
+            <a href="#">Datenschutz</a> | 
+            <a href="#">Impressum</a>
+        </p>
+    </footer>
+
+</body>
+</html>

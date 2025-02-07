@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popovici Forst GbR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #2e6a47;
+        }
+        header {
+            background-color: #3e8e41;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            background-image: url('https://www.pexels.com/photo/green-trees-near-body-of-water-1461749/');
+            background-size: cover;
+            background-position: center;
+            height: 80px;
+        }
+        header h1 {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            font-size: 3em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4CAF50;
+        }
+        nav a {
+            color: white;
+            padding: 16px 50px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #3e8e41;
+            color: black;
+        }
+        main {
+            padding: 20px;
+            background-color: #f0f4c3;
+        }
+        h2 {
+            text-align: center;
+            padding: 10px;
+            color: #2e6a47;
+        }
+        footer {
+            text-align: center;
+            background-color: #3e8e41;
+            color: white;
+            padding: 5px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .forest-section {
+            background-color: #a5d6a7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Stilizare pentru imagini laterale */
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .forest-image {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* Stilizare pentru textul de după poze */
+        .image-description {
+            text-align: center;
+            font-size: 1.2em;
+            color: #2e6a47;
+        }
+
+        .intro-text {
+            margin-top: 20px;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        /* Secțiuni suplimentare */
+        .extra-section {
+            background-color: #c8e6c9;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+
+        .testimonials {
+            background-color: #e8f5e9;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+        
+        /* Stilizare pentru tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>POPOVICI FORST GbR</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="STRUCTURE.HTML">Startseite</a>
+        <a href="INDEX.HTML">Leistungen</a>
+        <a href="blog.html">Über uns</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Startseite Section -->
+        <section id="home" class="forest-section">
+            <h2>Willkommen bei Popovici Forst GbR</h2>
+            <div class="intro-text">
+                <p>Herzlich Willkommen beim Forstunternehmen Popovici GbR. Wir laden Sie hiermit ein, unser Unternehmen mit Hauptsitz in Obernheim (Baden-Württemberg) näher kennen zu lernen.</p>
+                <p>In den letzten Jahren hat sich der ökologische und ökonomische Stellenwert des Waldes und des Rohstoffs Holz sowohl im Bewusstsein der Menschen als auch in der Wirtschaft beachtlich erhöht. Nutzen auch Sie die Potentiale Ihres Waldes! Eine professionelle, nachhaltige Bewirtschaftung bedeutet auch einen Wertzuwachs in Ihrem Wald.</p>
+                <p>Sie suchen einen kompetenten Partner rund um Ihren Wald? Dann sollten Sie sich mit uns als erfahrenen und gut eingeführten, forstlichen Dienstleister in Verbindung setzen. Gerne besuchen wir Sie in Ihrem Betrieb, um vor Ort die anstehenden Arbeiten mit Ihnen zu besprechen.</p>
+            </div>
+        </section>
+
+        <!-- Poze în lateral -->
+        <section>
+            <div class="image-container">
+                <img src="/assets/pozz44.jpg" alt="Image 1" class="forest-image">
+                <img src="/assets/pozz55.jpg" alt="Image 2" class="forest-image">
+                <img src="/assets/pozz66.jpg" alt="Image 3" class="forest-image">
+                <img src="/assets/pozz77.jpg" alt="Image 4" class="forest-image">
+            </div>
+            <div class="image-description">
+                <p>Diese Bilder spiegeln die Vielfalt und Schönheit der von Popovici Forst GbR verwalteten Wälder wider. Unser Team verpflichtet sich, qualitativ hochwertige Dienstleistungen für Ihre Wälder anzubieten!</p>
+            </div>
+        </section>
+
+        <!-- Secțiune suplimentară cu tabel -->
+        <section class="extra-section">
+            <h2>Unsere Dienstleistungen im Detail</h2>
+            <p>Hier sind einige der wichtigsten Dienstleistungen, die wir Ihnen anbieten:</p>
+            <table>
+                <tr>
+                    <th>Dienstleistung</th>
+                    <th>Beschreibung</th>
+                </tr>
+                <tr>
+                    <td>Pflanzung und Kultursicherung</td>
+                    <td>Wir sorgen für die Pflanzung von Bäumen und die Sicherstellung eines gesunden Wachstums Ihrer Waldflächen.</td>
+                </tr>
+                <tr>
+                    <td>Jungbestandspflege</td>
+                    <td>Wir kümmern uns um die Pflege junger Baumbestände, um deren Entwicklung zu fördern.</td>
+                </tr>
+                <tr>
+                    <td>Durchforstung und Wertästung</td>
+                    <td>Mit gezielter Durchforstung und Wertästung steigern wir die Qualität Ihres Waldes.</td>
+                </tr>
+                <tr>
+                    <td>Risikofällungen</td>
+                    <td>Unsere Experten führen auch spezielle Fällungen in risikobehafteten Gebieten durch.</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Secțiune de testimoniale -->
+        <section class="testimonials">
+            <h2>Was unsere Kunden sagen</h2>
+            <div class="intro-text">
+                <p>"Die Zusammenarbeit mit Popovici Forst GbR war hervorragend. Sie haben den Wald nachhaltig und professionell gepflegt." - Kunde 1</p>
+                <p>"Popovici Forst bietet außergewöhnlichen Service. Ihr Team ist immer zuverlässig und kompetent!" - Kunde 2</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2020 Popovici Forst GbR - Alle Rechte vorbehalten</p>
+        <p>
+            <a href="#">Datenschutz</a> | 
+            <a href="#">Impressum</a>
+        </p>
+    </footer>
+
+</body>
+</html>
